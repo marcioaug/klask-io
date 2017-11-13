@@ -20,6 +20,13 @@
   </cm:head>
   <cm:elements cm:rootid="i_U5ViMNO-KXX8vbr">
     <cm:element cm:id="i_U5ViMNO-KXX8vbr" cm:name="klaskioFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:relations cm:id="iNx91686TvOXLgrcR" cm:class="ps:children">
+        <cm:relation cm:id="iOLBR0psK9UySdrtm" cm:type="ps:optional" cm:range="[0,n]">
+          <cm:target cm:id="iPeSTLT-RY_Vea9mW">./iOcJVuXg1HW8iIMED</cm:target>
+          <cm:target cm:id="igfxl9vdi0WW7M8QT">./i2IdDCev6ZNUkT43B</cm:target>
+          <cm:target cm:id="i9R1rdySIrzA_q7S8">./iZhcrI_tkhVBrt-7T</cm:target>
+        </cm:relation>
+      </cm:relations>
       <cm:properties>
         <cm:property cm:id="ihof_Pc9gEl7UmIdT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
           <cm:constant cm:id="ieG-KHpQzmyGombxt" cm:type="ps:string">marcioaug</cm:constant>
@@ -31,7 +38,70 @@
           <cm:constant cm:id="i4LIjDQG6g9BwdPJ8" cm:type="ps:string">marcioaug</cm:constant>
         </cm:property>
         <cm:property cm:id="iCOkyt8lAee-0U7PJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
-          <cm:constant cm:id="ice9FRvZPJfZ5Jn9M" cm:type="ps:datetime">2017-11-13T02:56:48.528Z</cm:constant>
+          <cm:constant cm:id="ice9FRvZPJfZ5Jn9M" cm:type="ps:datetime">2017-11-13T04:27:24.016Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iOcJVuXg1HW8iIMED" cm:name="EMAIL" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iB5iQPBOiCkjVhThH" cm:class="ps:parents">
+        <cm:relation cm:id="iwihpG3r4lV5EtCRp" cm:type="ps:parent">
+          <cm:target cm:id="iwVPvftL3uqGUeSS-">./i_U5ViMNO-KXX8vbr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6pQUwbhPacCKxO01" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHRk-rEHHIFjTLA6D" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibYvBNlYacYmM3-so" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iAcoHxIfB8d-yzDDC" cm:type="ps:datetime">2017-11-13T04:10:42.952Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0rVcw-ANM6oXpfGR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLdmkk6Yg9r8uZ5q2" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYEeNQ2jYNPXT5EtQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iCQgHpLBEFa10DpxF" cm:type="ps:datetime">2017-11-13T04:10:42.952Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i2IdDCev6ZNUkT43B" cm:name="SMS" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="inHjxVLsf6PHY3Izc" cm:class="ps:parents">
+        <cm:relation cm:id="iD3R6MySgtSvDw1wY" cm:type="ps:parent">
+          <cm:target cm:id="iG49jNpavk0W9ZjGt">./i_U5ViMNO-KXX8vbr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ild2hmEpkt_BcT5G4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i1EiTUKNSRWG5DWj1" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4fAyNDTLJ7bVWuw2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_Y61zGpk72ZnMq6v" cm:type="ps:datetime">2017-11-13T04:10:53.545Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVb84ZBg2w-gfo5_u" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i1nn4ja5TIVXhHDk-" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9Y3WiZrq1yKvgyQ0" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iGFkc14axlBuZnQ82" cm:type="ps:datetime">2017-11-13T04:10:53.545Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iZhcrI_tkhVBrt-7T" cm:name="MESSAGE_COUNTER" cm:type="ps:feature" cm:class="ps:feature" cm:default="off">
+      <cm:relations cm:id="iUbVNCJPkW1F_DW3L" cm:class="ps:parents">
+        <cm:relation cm:id="iehjyL7sFoUizSTjL" cm:type="ps:parent">
+          <cm:target cm:id="iW5gxfZCexsrk46tG">./i_U5ViMNO-KXX8vbr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="inpAruf5TbUa_RJWM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3D0i8mNdq-ifM1Ol" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igZJJiE6qK39WYmea" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iFnb71cShNyaHoPs2" cm:type="ps:datetime">2017-11-13T04:27:24.016Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOGo5CpQkdBR-GWQi" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iDnJkpfZYpaudXiNl" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikRHMmFGMF-I2kb6f" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="isZsT2w5cO-gIL4Jt" cm:type="ps:datetime">2017-11-13T04:27:24.016Z</cm:constant>
         </cm:property>
       </cm:properties>
     </cm:element>
