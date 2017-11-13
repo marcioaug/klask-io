@@ -1,0 +1,39 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iyjVP0540EyZkUsXy" cm:version="1.5" cm:type="ps:fm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="iKYob92qSIciHbod7" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="ifLHwQy12LbYD08_p" cm:type="ps:string">klaskioFeatures</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ihN_rj0kjdi9TWP8_" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ioSEQlTezoNnor-of" cm:type="ps:string">marcioaug</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iCgo4rltQDfpWmngO" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="i8uTbBf6AjK7I0IZ5" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="imyrnTuXQcLcQR_NI" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="iprw6I0p99G_rQJsS" cm:type="ps:datetime">2017-11-13T02:56:48.529Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="icJK1bxfWw5ocOPG5" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="iA6di0vdNmXkeF6c6" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="i_U5ViMNO-KXX8vbr">
+    <cm:element cm:id="i_U5ViMNO-KXX8vbr" cm:name="klaskioFeatures" cm:type="ps:feature" cm:class="ps:feature" cm:default="on">
+      <cm:properties>
+        <cm:property cm:id="ihof_Pc9gEl7UmIdT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ieG-KHpQzmyGombxt" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="id18imft6EKu9Zb75" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZyBvKpcRsenxkAKF" cm:type="ps:datetime">2017-11-13T02:56:48.528Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6iCRhqwd9hzvYRQt" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i4LIjDQG6g9BwdPJ8" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCOkyt8lAee-0U7PJ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ice9FRvZPJfZ5Jn9M" cm:type="ps:datetime">2017-11-13T02:56:48.528Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>

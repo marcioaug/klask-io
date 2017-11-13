@@ -1,0 +1,1983 @@
+<cm:consulmodel xmlns:cm="http://www.pure-systems.com/consul/model" cm:id="iFY7Hmd7yyw70Hiz3" cm:version="1.5" cm:type="ps:ccfm">
+  <cm:head>
+    <cm:properties>
+      <cm:property cm:id="i1pkRFZVBe8Q4KWb8" cm:type="ps:string" cm:invisible="true" cm:name="ps:name">
+        <cm:constant cm:id="i94sRULfHlPVLu17Q" cm:type="ps:string">klaskioFamily</cm:constant>
+      </cm:property>
+      <cm:property cm:id="iqrXa5E5X7HwpR_hF" cm:type="ps:string" cm:invisible="true" cm:name="ps:author">
+        <cm:constant cm:id="ix_O0Vv3RMyOorhBq" cm:type="ps:string">marcioaug</cm:constant>
+      </cm:property>
+      <cm:property cm:id="i9SUiK_NEfjztUr2t" cm:type="ps:string" cm:invisible="true" cm:name="ps:version">
+        <cm:constant cm:id="iJN0b-yDoq6ry6b1d" cm:type="ps:string">1.0</cm:constant>
+      </cm:property>
+      <cm:property cm:id="ixFSrmGVL7T73BJ7c" cm:type="ps:datetime" cm:invisible="true" cm:name="ps:created">
+        <cm:constant cm:id="i2fOUAhnBgdZ3q2bm" cm:type="ps:datetime">2017-11-13T02:56:49.750Z</cm:constant>
+      </cm:property>
+      <cm:property cm:id="igjnB0mTm5hhel5g5" cm:type="ps:mimetype" cm:invisible="true" cm:name="ps:DescriptionType">
+        <cm:constant cm:id="i6juwd6Va8Pv4Q0Yj" cm:type="ps:mimetype">text/html</cm:constant>
+      </cm:property>
+    </cm:properties>
+  </cm:head>
+  <cm:elements cm:rootid="i848z41rD6nzQi8Ci">
+    <cm:element cm:id="i848z41rD6nzQi8Ci" cm:name="klaskioFamily" cm:type="ps:family" cm:class="ps:family" cm:default="on">
+      <cm:relations cm:id="ijShtsJxzaaRWvlK2" cm:class="ps:children">
+        <cm:relation cm:id="iLGg-4MhRjkaa5FNo" cm:type="ps:mandatory" cm:range="n">
+          <cm:target cm:id="iU9tt-J81gI2sR2qe">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iM90csU8YzXW5UGBL" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ixqkix02QqxF8JDyA" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRHKIHd_c3MBplVxA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKHsbHfGg_gWlk2Pl" cm:type="ps:datetime">2017-11-13T02:56:49.749Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4mn2YumdOysJg0q0" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iMMSlPRnKe0B1vTXm" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig2P0z7XsQhuxVbMR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="igJavqZ63OOMBWFya" cm:type="ps:datetime">2017-11-13T03:18:02.718Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ihHx-T04WHbHY0AyI" cm:name="klask" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="idPuAkaXjP7F3W_h9" cm:class="ps:parents">
+        <cm:relation cm:id="iBaMfkFVfo67MPZS-" cm:type="ps:parent">
+          <cm:target cm:id="iMTcCOKUgxuzgo7ZV">./i848z41rD6nzQi8Ci</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="itP7QosBhrEiJQCqV" cm:class="ps:children">
+        <cm:relation cm:id="ib_mi1NKfe7XObTfa" cm:type="ps:mandatory">
+          <cm:target cm:id="iRsq9pcvbMgAY5LLV">./i1Ak3cwf1w9Kj4bmt</cm:target>
+          <cm:target cm:id="i-9Frm8H9TJXXUdiO">./iW-V3oxWe0arBwrui</cm:target>
+          <cm:target cm:id="izfraO1tmtJV5wkbv">./iN13QYeNeSPaXgTv_</cm:target>
+          <cm:target cm:id="i5CfX8pGx5Iw4MxoS">./iD5GxSvVVFkY257jE</cm:target>
+          <cm:target cm:id="ipFBa9MD1wkSrIWsz">./i0PTBiHMvk9OPsFOU</cm:target>
+          <cm:target cm:id="iA8AgoNw-2corr1B9">./iDWXPlVyTUj3-IqV-</cm:target>
+          <cm:target cm:id="iGWcKDF-eZrQ8gm_s">./ikl8YRVcw0C3thYzl</cm:target>
+          <cm:target cm:id="ionR1vRG_eXbNXr8P">./iWcSYL3jIQX31yTmd</cm:target>
+          <cm:target cm:id="i3J0-mzkKAuOarosZ">./il4c68fJg6fYS9XU3</cm:target>
+          <cm:target cm:id="iQ8N9VgTVcFJuTV4u">./iMMurtuFLlHrVRIDA</cm:target>
+          <cm:target cm:id="id3Q-YMH23Zy9Kpra">./i1Pa2v-NNWFWy2NZr</cm:target>
+          <cm:target cm:id="iAnRim9XvGnsMT2s6">./ieM-JkJuI_c0_nRbo</cm:target>
+          <cm:target cm:id="ivkbLxwIsFXLqAle1">./i19iuYOiheI6ItMGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixaU3xNCp6rbmSuxC" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iXzmTmYEE8ewCPZxf" cm:type="ps:directory">.</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAwEPIk_uTbUhmfOL" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iq89_7FS5MrqB7IJ2" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idG7b4u2R_Gol8uWb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i-17bjGAxqsDLrQ2h" cm:type="ps:datetime">2017-11-13T03:18:02.718Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1w1vVYhYfsAPGCWu" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iBMmyTRvqNcZK23AL" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUDS9Z4pO-rhkuWbN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iokNSPCErYUPbstia" cm:type="ps:datetime">2017-11-13T03:34:41.415Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i1Ak3cwf1w9Kj4bmt" cm:name="gulp" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iB013U3e215Oeq0gA" cm:class="ps:parents">
+        <cm:relation cm:id="icPJTd-z1kBJRjKYu" cm:type="ps:parent">
+          <cm:target cm:id="iY5j0rAkJZJwkl9zY">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iEAIWhrfcFHg12-KA" cm:class="ps:children">
+        <cm:relation cm:id="iwTyrQ_xk56Do9IRi" cm:type="ps:mandatory">
+          <cm:target cm:id="i-eQ2DlTaaQR35_3v">./isN3GOkbMO_8kqymL</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iS0-UJX4jW3S-2Qnq" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="ipHjOCRqKpCpd0LQ-" cm:type="ps:directory">./gulp</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0z_uDE1nJaClAcis" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHb_OJIBTE7JIHRQQ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijsfI6qx8J123d95-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="idSS1oFqJJUH9fT0M" cm:type="ps:datetime">2017-11-13T03:19:14.262Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iv20hVHmHPiTbdgl_" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ifnfG57ak-IBaevSB" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1L4B3uGryqHdi3LA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iQOc_AkSeuKPWxCVa" cm:type="ps:datetime">2017-11-13T03:19:42.268Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="isN3GOkbMO_8kqymL" cm:name="gulp_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="igBnndfduO49WKBmr" cm:class="ps:parents">
+        <cm:relation cm:id="iiselWlJLY4xoe1o1" cm:type="ps:parent">
+          <cm:target cm:id="idbfeMnDeK_wZcDP4">./i1Ak3cwf1w9Kj4bmt</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iUCW9sv1vEHzXV69x" cm:class="ps:children">
+        <cm:relation cm:id="i9qr6D4t7q58DdB1L" cm:type="ps:mandatory">
+          <cm:target cm:id="icUs3OyBd3ku0uHP_">./i0QsYuzZN42CU6A55</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i2-AjhT_rfL8OwwxS" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifPQIcXCQNXaywQOd" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVHdktB2Y_6OrH8Pj" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i-bD1SQY3BU5QCuqU" cm:type="ps:datetime">2017-11-13T03:19:42.268Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHeFpYBOENogZXT-r" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ivYXNyLLmc7L_O0De" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_tOEQo_m8z64NAZz" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="icqfC2lhe-2he3GEI" cm:type="ps:datetime">2017-11-13T03:20:19.596Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i0QsYuzZN42CU6A55" cm:name="gulp_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i91hGWql_1J9R7GnH" cm:class="ps:parents">
+        <cm:relation cm:id="i4-0PWksNhnnE3vKz" cm:type="ps:parent">
+          <cm:target cm:id="i4494KVfTWpmATT5B">./isN3GOkbMO_8kqymL</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixw3CJ8ULp9QsQk7D" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="icr7NVuOmYe92_XNI" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ic3Jyy7YVwvlq90WN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8jtDI5M4k4Hjxl3P" cm:type="ps:datetime">2017-11-13T03:20:19.596Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itW8ZEInw4f1QT6hR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iqXiLRQinMUUAwGV0" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iu1E232PMN_SHO-u_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iAQK8KbmMvtOO0yto" cm:type="ps:datetime">2017-11-13T03:20:19.596Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iW-V3oxWe0arBwrui" cm:name="node_modules" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="i5LtvErFnxlFx6in_" cm:class="ps:parents">
+        <cm:relation cm:id="isBZz3t4uT3LNFmRz" cm:type="ps:parent">
+          <cm:target cm:id="in50DIxcWSsGAvnTx">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iF2cJAkdPGNllEIPP" cm:class="ps:children">
+        <cm:relation cm:id="ik0AHJ5b8Fzunwm8L" cm:type="ps:mandatory">
+          <cm:target cm:id="iXONdb1o_-NlLwXCm">./icPJLKXUgLnGvZrd8</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i4be7o-xhuVajA1XI" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iJNn0BgoRPvcF-vPW" cm:type="ps:directory">./node_modules</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixh1tfuJvGloSlEJt" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iNALVgxVG27RKXHUo" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isRILTvJLzwphs1Wa" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2KHvokn75fDpnhB8" cm:type="ps:datetime">2017-11-13T03:21:52.706Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="icA0EuNzthvT_5J-u" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ih_iVHGZgtsdSKifG" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ie6MOoj_bjj_Kw__6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iT6ZGsrBmA9-X3I2R" cm:type="ps:datetime">2017-11-13T03:22:13.076Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="icPJLKXUgLnGvZrd8" cm:name="node_modules_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iDaKtMVd73H-xE595" cm:class="ps:parents">
+        <cm:relation cm:id="i2eNhj4X7NGXShI43" cm:type="ps:parent">
+          <cm:target cm:id="iz9KegrGGouDh3VUG">./iW-V3oxWe0arBwrui</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iRK1KiT6MDyrF6XQo" cm:class="ps:children">
+        <cm:relation cm:id="iGpdUvQbH7xRPDp_E" cm:type="ps:mandatory">
+          <cm:target cm:id="iayEY6ET6iw4cyjaO">./i01HILK-QmyuoxpId</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iFvcj7S2xSXIxXPKh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iBNjkZC1XePSd8dsH" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="id9UZmUtp0sVJbzfs" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="igT9KZ5oyv3scGlg4" cm:type="ps:datetime">2017-11-13T03:22:13.076Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLK-LgBF0_1gz-q5W" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ifAaHhAeawrKYHE8v" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBVQrEsfqOWgYdjtY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iWSYSkiQ7qgpxLsjV" cm:type="ps:datetime">2017-11-13T03:22:28.083Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i01HILK-QmyuoxpId" cm:name="node_modules_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i8QS_xaEpRder3RS-" cm:class="ps:parents">
+        <cm:relation cm:id="iXHk21I1DR6haSoy_" cm:type="ps:parent">
+          <cm:target cm:id="iAhBRI_PPHs9xKMDt">./icPJLKXUgLnGvZrd8</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="irVtwRt9n7p2BnOPA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ieqQpM8UYAzcLoY1w" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig1arONk3JRZyZNsw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iy5n_3qajB2empUDX" cm:type="ps:datetime">2017-11-13T03:22:28.083Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ix7rwpL_1D0fx7PMP" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ihaQpS1F1Hume4hiN" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioGOGUcAspXn7SxpW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZTbc_klMzMVSNRAU" cm:type="ps:datetime">2017-11-13T03:22:28.084Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iN13QYeNeSPaXgTv_" cm:name="bower_json" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iOB7_kw0Nx96Nijni" cm:class="ps:parents">
+        <cm:relation cm:id="iVjYOXUPO9tYcvMtZ" cm:type="ps:parent">
+          <cm:target cm:id="ijaF4rhZr0moc3A6j">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iETlZCZEeWnvAIJIT" cm:class="ps:children">
+        <cm:relation cm:id="iA1-05SvCNJrWhSXZ" cm:type="ps:mandatory">
+          <cm:target cm:id="i_MGSUDViD4eKaT5C">./iDfMDcCAjGvalPksV</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iTCrPznnpEWhQaJEo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ij4lAal-yX0oesKhm" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCoTZfQxSKicbT9XH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iCTDYQpWPL6TWWucQ" cm:type="ps:datetime">2017-11-13T03:23:52.995Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSnKhAFu2NqB9NLB2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i51W99gJ9-SduI3QH" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKIb01_OMM2isKTJe" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="id6goE0Xpn6-3bHHw" cm:type="ps:datetime">2017-11-13T03:24:19.118Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iDfMDcCAjGvalPksV" cm:name="bower_json_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i5KZUh-Xry3PRBd5x" cm:class="ps:parents">
+        <cm:relation cm:id="i_QUTn642K0Lgrmn1" cm:type="ps:parent">
+          <cm:target cm:id="iVw1GQw48y8VM64-f">./iN13QYeNeSPaXgTv_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i4mQtN1Ot10xDMz72" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iWaC3161tT_iONT36" cm:type="ps:path">bower.json</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRINRpxdSgxSxCZ5f" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ioDUi8NXhwR21P5xV" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iN3-jqG-7tgVU1_90" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i4aPS6eyPCxggY3GC" cm:type="ps:datetime">2017-11-13T03:24:19.119Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iL_LRudkonIMbI6fK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="il9bJDalQ9S4SbzTW" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOjemXAYoypIOdd2A" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iMQdGWqA76OsVRTfl" cm:type="ps:datetime">2017-11-13T03:24:19.119Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iD5GxSvVVFkY257jE" cm:name="Dockerfile" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ioQbLgGC_E0pz0qvd" cm:class="ps:parents">
+        <cm:relation cm:id="iCLeqAnurpc0z6fdO" cm:type="ps:parent">
+          <cm:target cm:id="i3excxkVTr1Kv5yGp">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i4MhFmAyVk5S4Hdpc" cm:class="ps:children">
+        <cm:relation cm:id="ih4oMyVcgaEwBLOZp" cm:type="ps:mandatory">
+          <cm:target cm:id="inGm6lggR98K1NQyX">./itvwAB50OcEdZdxMz</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJ7eY3zaKAW4LMmcd" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i2ILyw35Ws18jLBJT" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioXJKTtySOX9e-1HC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iyd7fQPaC562FbGm7" cm:type="ps:datetime">2017-11-13T03:24:52.265Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itRrgXlh_pzxw-xn3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="il4tXT7uVfJGSoDhD" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZ66SqVC28PnH3tUo" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="it7qUjeyRlLXVN76Y" cm:type="ps:datetime">2017-11-13T03:25:03.123Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="itvwAB50OcEdZdxMz" cm:name="Dockerfile_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i5KRPm_uqy2xJNGhY" cm:class="ps:parents">
+        <cm:relation cm:id="iUo9F5SlaRR9-IjrI" cm:type="ps:parent">
+          <cm:target cm:id="igKJQ5RMRCjzCHwFQ">./iD5GxSvVVFkY257jE</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iczrNnnIndYzSGXOl" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i9J9ILT2uo1dUBe93" cm:type="ps:path">Dockerfile</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iotUKQXtV4VIYrSjQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="igSuzoggxeqM5qZSw" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iTTJb2_srIZgDyIEk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i0CKhJCoHRfGaiHZM" cm:type="ps:datetime">2017-11-13T03:25:03.124Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMB1gH3qufW8BH4sx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iYNLHRy7YYfMBQnt_" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipHTgS3P-iekePbdH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i6Xt-IZHWRDw3xQOX" cm:type="ps:datetime">2017-11-13T03:25:03.124Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i0PTBiHMvk9OPsFOU" cm:name="Jenkinsfile" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iTHuDdL_XZl-K9Toj" cm:class="ps:parents">
+        <cm:relation cm:id="iGYYsoWbsS-qXXgHd" cm:type="ps:parent">
+          <cm:target cm:id="iYHE0aEgFiCeQNN2E">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iqlc2YRxS0j5AdGZj" cm:class="ps:children">
+        <cm:relation cm:id="iTxmwwTOMRwavyxT9" cm:type="ps:mandatory">
+          <cm:target cm:id="iSMS32mf7liB1ZOYm">./iUYRtZDDWhXGY7jjI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i7je4m0FlHj_wLmA3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iR-faFO1tRrXA4RS1" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZYxmVtr7IL2dYkda" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iZ-A-vlCWsXiSbU-8" cm:type="ps:datetime">2017-11-13T03:25:27.483Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iRn5WwTLCbRLXHY1q" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iYPEG1feVErSydFF2" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBe3DrwG-44hlGZsU" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iGgw1nneGxaafcpzr" cm:type="ps:datetime">2017-11-13T03:25:39.636Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iUYRtZDDWhXGY7jjI" cm:name="Jenkinsfile_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iayd8OYRRHEolKNUM" cm:class="ps:parents">
+        <cm:relation cm:id="iICKaiBcpDqmyulhO" cm:type="ps:parent">
+          <cm:target cm:id="iA0ydP8uIOgKY451F">./i0PTBiHMvk9OPsFOU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iI8E5F55pfKfrNxs8" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="inrMpOZq-_hPa-503" cm:type="ps:path">Jenkinsfile</cm:constant>
+        </cm:property>
+        <cm:property cm:id="is5Mr9RrPp4vVDFDR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iFTT2AAr30PMKXE6a" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQgjQZrH5a-5uLyiM" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ikTFFewBkvHGxEwpu" cm:type="ps:datetime">2017-11-13T03:25:39.636Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1TUB7P3Bd3xZwMzb" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="icQJnVgPG1au05sIA" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7CXTZG16JbrDAOY0" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iUFZMrQndeh4pWOGo" cm:type="ps:datetime">2017-11-13T03:25:39.636Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iDWXPlVyTUj3-IqV-" cm:name="mvnw" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ivEYJpUgAW022dos2" cm:class="ps:parents">
+        <cm:relation cm:id="iSfWusrqPw2rS9TVv" cm:type="ps:parent">
+          <cm:target cm:id="iqnDQUfhuczvZysEh">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ilux0V3Df2y9p7YRj" cm:class="ps:children">
+        <cm:relation cm:id="iWJn0JqxDeeYmTM6W" cm:type="ps:mandatory">
+          <cm:target cm:id="iqQJQKIPubSr1ho3Y">./if3sCWZdkt2J9PpOP</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iX3R2RNRZs0-xyfyC" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ij4DCNzutPNTDiifS" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw7je27VjlUmn8yX2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i9zXW52RXcPUDcOeX" cm:type="ps:datetime">2017-11-13T03:26:25.815Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKpKpzZNiXMd01lwG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iJHGrj5LRET679oQ8" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i90iAmyg9KvvD_zqk" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="if8ZUIhxBSQ9FQsye" cm:type="ps:datetime">2017-11-13T03:26:56.300Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="if3sCWZdkt2J9PpOP" cm:name="mvnw_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ibZuz3eHa-qtcCl4-" cm:class="ps:parents">
+        <cm:relation cm:id="iKHrD_1Cs4bMCJ8ef" cm:type="ps:parent">
+          <cm:target cm:id="iZ6jLQl8EVFIIbTvA">./iDWXPlVyTUj3-IqV-</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iunM2NB-0M3I6Vl0G" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i9h9VEb3uq3iani_e" cm:type="ps:path">mvnw</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idiqruUM5T6P-kvOo" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iUTSAgxEN_B4kaXpJ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="inCOnK3jQSvEuiflZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i3fG9l3ysWzEVY31U" cm:type="ps:datetime">2017-11-13T03:26:56.300Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZQn7jHzdik2-6zzQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iM_nKjZ4hDHL_HWL4" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOOYd3tX-hr9U43uK" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="idYlpEr3Y6-yzAokh" cm:type="ps:datetime">2017-11-13T03:26:56.300Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ikl8YRVcw0C3thYzl" cm:name="mvnw_cmd" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iOGgKUIszB97ccOO8" cm:class="ps:parents">
+        <cm:relation cm:id="i4KvOc3O5JlhcSAdR" cm:type="ps:parent">
+          <cm:target cm:id="iuEsnvODWo7EZh_de">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iWguIOLSiuPPAwFiy" cm:class="ps:children">
+        <cm:relation cm:id="iXdBJhwzbAGQISJdi" cm:type="ps:mandatory">
+          <cm:target cm:id="inro8if_QZ8w_du4t">./iOkXqMQcRXPztbnwP</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJI_-pczflXuy5NDn" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ibizpclhHsgv9pO27" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i46TXWpjmnY58ukIZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="izT7z_Z1v85g7ZIWP" cm:type="ps:datetime">2017-11-13T03:27:26.130Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZwM58tmo3Uu0AO9N" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iWLx9pU1Y-x1uvxnD" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDgrdwkSFrED4NgzK" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0UlvrZgCb6JC89F3" cm:type="ps:datetime">2017-11-13T03:27:43.576Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iOkXqMQcRXPztbnwP" cm:name="mvnw_cmd_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iAcZTzz1ue38hUcRf" cm:class="ps:parents">
+        <cm:relation cm:id="iUkjpWS05yYXFRgCf" cm:type="ps:parent">
+          <cm:target cm:id="iXKRWbHj8inaGywX7">./ikl8YRVcw0C3thYzl</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="idwwqw21oRdaM4gCL" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="ihobCmqjIRjNmrqeO" cm:type="ps:path">mvnw.cmd</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i6z4UNiwgdE4ETBcp" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iYWGM393GzQv09vnB" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iimyrmgDL1LRgffEQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iQU8017wes_aIyKr1" cm:type="ps:datetime">2017-11-13T03:27:43.576Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHoIfpi9hdYw4Najx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iYDpJ05Z2amFAo39X" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ih1_sEu5YXJ6Mbgne" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ira0hYfX0Jx2sXeQ_" cm:type="ps:datetime">2017-11-13T03:27:43.576Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iWcSYL3jIQX31yTmd" cm:name="LICENSE" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="igRLtyVWtGKml-4l-" cm:class="ps:parents">
+        <cm:relation cm:id="iYaFx_0iyWBGKO_Gf" cm:type="ps:parent">
+          <cm:target cm:id="ilod1LRpcuNC7hv2d">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iX9oyyK4ZQ8a4-wRV" cm:class="ps:children">
+        <cm:relation cm:id="iHKlNR3_np62KzScy" cm:type="ps:mandatory">
+          <cm:target cm:id="iS8QEnJdl_1fJvTWb">./iRUPLETkJL6vqImh-</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iaT2_AcTSUlX1Hc1i" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="itGiUAAW6J52oIFK-" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iue4x-TkgaS3lTiYr" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="inExiB689i-2PqPR8" cm:type="ps:datetime">2017-11-13T03:28:10.278Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isfOcSh5sI5Z4H5Fg" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="igV08F0vpDzoxrd_4" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivajOMiUhC4wN5SbH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iLfvXKavk7b-t-vOr" cm:type="ps:datetime">2017-11-13T03:28:21.984Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iRUPLETkJL6vqImh-" cm:name="LICENSE_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iuz5iIwuKtycdoGWg" cm:class="ps:parents">
+        <cm:relation cm:id="ineSRqi5qR1lhrlXD" cm:type="ps:parent">
+          <cm:target cm:id="i85BtAIrryKU50Gi3">./iWcSYL3jIQX31yTmd</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iXtYxCe_x-MZdjvFw" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iR_LjRJUnUqqVezvs" cm:type="ps:path">LICENSE</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSdi6BS2v8DMunAPI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="igAUSbRIAa1FzUEq3" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKzoQ_JSNXkqFvB_E" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2wI0MXHIoooWwMaG" cm:type="ps:datetime">2017-11-13T03:28:21.984Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivz62TYAJEMmJfwBb" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iCDf1R7polkucmWQi" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihUMbms3Jm55fLVuA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="izHnd1GQOOCJOcXzB" cm:type="ps:datetime">2017-11-13T03:28:21.984Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="il4c68fJg6fYS9XU3" cm:name="package_json" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="icyhE7plKIx-CAtiP" cm:class="ps:parents">
+        <cm:relation cm:id="i347BF8Dwwk343ieA" cm:type="ps:parent">
+          <cm:target cm:id="iLwFE31yn8gRS2w3_">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ibsPn2rQ-k5s5gIsz" cm:class="ps:children">
+        <cm:relation cm:id="i5fe35lfose-O4aVF" cm:type="ps:mandatory">
+          <cm:target cm:id="i69MVHx5Uhr-1UEvf">./i70MdShhts8sQIyxe</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iogVGKC2Zpmzu2PqJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iRff8T9aVT0rPYFy8" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipHzdeexHxdXupYMH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iqfzO-_SW0tQolh6M" cm:type="ps:datetime">2017-11-13T03:28:54.863Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNmgidW7ClCL9hoc1" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iMEdyxbHUc8HfiMM1" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqEA2DvOUpHXHUqPR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="irxD3UZa07vpeY6jF" cm:type="ps:datetime">2017-11-13T03:29:08.830Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i70MdShhts8sQIyxe" cm:name="package_json_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iSBGoJuczZa9y-uKT" cm:class="ps:parents">
+        <cm:relation cm:id="iUlJnIGh4m9BvVbl9" cm:type="ps:parent">
+          <cm:target cm:id="iXPJe6vjRNKya7LTx">./il4c68fJg6fYS9XU3</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iDGIZ11MFu9gc70UX" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iWWMB2ipu22q5edtn" cm:type="ps:path">package.json</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipNsNxQHnW4oc6epr" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ismnd3cSyAFB5nDms" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iu8LNeaS1vq7m23h4" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iopjf63gJoxXyLhWL" cm:type="ps:datetime">2017-11-13T03:29:08.830Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuoXL1_s4fzL6HKWK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i3Y5CTciFCbxQRd-I" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iC-0XjeOcoH-X8kM2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikJIFwrW_HpIeIexW" cm:type="ps:datetime">2017-11-13T03:29:08.830Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iMMurtuFLlHrVRIDA" cm:name="pom_xml" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iF9aPOwPsI_4XFlRh" cm:class="ps:parents">
+        <cm:relation cm:id="iQBJTCaEIuy2RUv0s" cm:type="ps:parent">
+          <cm:target cm:id="ipiLXoy8_2DG66Cnf">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iY9_11w3bPbLfUv0Q" cm:class="ps:children">
+        <cm:relation cm:id="ikjU02sKrAF0vOZAc" cm:type="ps:mandatory">
+          <cm:target cm:id="iwcsWnO2ub1hMzoxS">./iMsg4Q8ons8QmXmvJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iXfxHhFxUBpprjEjP" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="idQgOaZ7xRDjN46IQ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ia5Xbi286Kdn_rj27" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ijlm_NroYjwucYjLU" cm:type="ps:datetime">2017-11-13T03:29:31.906Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyweQtBO6HV5MbKt4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iDWcRyELRzxEDmLXk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isgWfVbFK1YmcWMj4" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="id0pZCfKXePxfPaGn" cm:type="ps:datetime">2017-11-13T03:29:47.161Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iMsg4Q8ons8QmXmvJ" cm:name="pom_xml_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i-q7wH0QXLAj21rRf" cm:class="ps:parents">
+        <cm:relation cm:id="imEwH4ov2f30zm92r" cm:type="ps:parent">
+          <cm:target cm:id="i021Zae6BE7PiacST">./iMMurtuFLlHrVRIDA</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ixjhX_Plv4GVObreD" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i1uGxm6Sird_w9fK3" cm:type="ps:path">pom.xml</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBgaKWepEJYB2sW1p" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ioiwBk8BYsDIhDFyd" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOyT056Hf9772RMn9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iFx6ELurhjQ4qcb7l" cm:type="ps:datetime">2017-11-13T03:29:47.161Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isIaA4cTy1g96bE5n" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="imwN_e6S8pm18RsXk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="irkp3B6a9qMPV3vsB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iTIvXaJleEwnnAbjW" cm:type="ps:datetime">2017-11-13T03:29:47.161Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i1Pa2v-NNWFWy2NZr" cm:name="README_md" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iqL-kiG2GJf3GXgfM" cm:class="ps:parents">
+        <cm:relation cm:id="iwc70ptq3e-RdgJw5" cm:type="ps:parent">
+          <cm:target cm:id="i0Eo3YfPMMGIuVzP-">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="igXW-35K9Pte8R33-" cm:class="ps:children">
+        <cm:relation cm:id="imiSn7lMZHE8HtAUt" cm:type="ps:mandatory">
+          <cm:target cm:id="iN_MLZ56fag3rUNb-">./iQYeuVBOVvoJHrkgz</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6ZOVI9u1cabTqoUG" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ityftZCJiwBgK0-zq" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iy2cY_Vh-MGZzDO2w" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iN0gz57dDQGKYy-sO" cm:type="ps:datetime">2017-11-13T03:30:13.372Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJvZIYIGzvzWNEYZK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iAjMslJao_2BrkGsO" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikWP2zVu0F7LfrK4u" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ipZgmdWolVh1qtSqv" cm:type="ps:datetime">2017-11-13T03:30:31.178Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iQYeuVBOVvoJHrkgz" cm:name="README_md_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ijt9Ugk85LI_Dmpvf" cm:class="ps:parents">
+        <cm:relation cm:id="iR2dEET7WCaBDlcZT" cm:type="ps:parent">
+          <cm:target cm:id="iDY5M1qk7Xc1JE6Ei">./i1Pa2v-NNWFWy2NZr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="inb7Bz1BeywipcZtH" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iywL2zXfOY1buZObt" cm:type="ps:path">README.md</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyYnNxX2oR4rY45Ep" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iLPm3i1uzWa3FLnvQ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihpO9pqxh2yxtNQnN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="icQIYPBpXlyT3rEnr" cm:type="ps:datetime">2017-11-13T03:30:31.178Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iruEnuSXN78oH1fNi" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="irn6YP4D2tlEEjCAs" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igb6tt9kb-EPnNDDR" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i_2_8d4jx6JUzW2NE" cm:type="ps:datetime">2017-11-13T03:30:31.178Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ieM-JkJuI_c0_nRbo" cm:name="TODO_txt" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iYCUMO5N4xYn0TphX" cm:class="ps:parents">
+        <cm:relation cm:id="iEVZGSiM-AnCqUkbF" cm:type="ps:parent">
+          <cm:target cm:id="imttJ1k9F3eWDd4fl">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iP_h06LWok3U_lC3P" cm:class="ps:children">
+        <cm:relation cm:id="ipAjotx5z9KNBfYnK" cm:type="ps:mandatory">
+          <cm:target cm:id="isvqsCH1_PDKuLGbz">./iZ29kfaMuKyapqqeC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i34qd6EtpeO1ymO3o" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iPVoDvOj3hKaULSOl" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isPc5TjCeLzJMqn74" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iWjhvSJjvkVXc6l_X" cm:type="ps:datetime">2017-11-13T03:30:52.328Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iv803uMgFM63a9QQu" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i7D9Z0GGWCp17pBb1" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUmwvjxaiTLgEc13D" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="imhYdWkpikqnlxAJh" cm:type="ps:datetime">2017-11-13T03:31:05.069Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iZ29kfaMuKyapqqeC" cm:name="TODO_txt_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="izXHD8xkV-1rlxiKN" cm:class="ps:parents">
+        <cm:relation cm:id="iSWoJNnc8s7tbdjRZ" cm:type="ps:parent">
+          <cm:target cm:id="iRpj3U-6cTvbb53oM">./ieM-JkJuI_c0_nRbo</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iLKKeLSe5zqg15G0H" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="i411h4feumYz1be6i" cm:type="ps:path">TODO.txt</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-CEjGALWnTWTICPc" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ij6DDj7xlDtI8MBvP" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHZihs6HLMZbqURSW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iGjn_x3HqcXSkL5Pe" cm:type="ps:datetime">2017-11-13T03:31:05.069Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7d4BUEzEB2ufLOMB" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iA_FMh7ZmIR2D2bZV" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9QhHE_KmyRVxSSCS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iNgCIWsqYwcQqVZSt" cm:type="ps:datetime">2017-11-13T03:33:29.782Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i19iuYOiheI6ItMGF" cm:name="src" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ixUPrTHDwA8lN0GKm" cm:class="ps:parents">
+        <cm:relation cm:id="ikv5pdcIjEeTYa8rb" cm:type="ps:parent">
+          <cm:target cm:id="is_KCa6Cn200rtdb3">./ihHx-T04WHbHY0AyI</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i9JJeB9tyX26akwYU" cm:class="ps:children">
+        <cm:relation cm:id="ijtazyBOn19M6qTJp" cm:type="ps:mandatory">
+          <cm:target cm:id="ilgEaoyqNLYj2riQV">./ibjzXc2sjEwgZn0Uy</cm:target>
+          <cm:target cm:id="iZI5OtjgCOLokHc5u">./iXE1J4TxOTOEtjJ7v</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="izfwmODzGi_Hh20Yi" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="irFEuUtGdUetqgsMn" cm:type="ps:directory">./src</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYbe0cP4JfMXUlBPa" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i1D9WbepR7wvIrZER" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPO-D9KUFoGuG4woi" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ino-OQkAOL0J8S85J" cm:type="ps:datetime">2017-11-13T03:34:41.416Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igJvLP75RTe5lUKBA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="izivSknYCLhWRVJtq" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifkZezBWdBei3fZTO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i3NLcwOAKDLIn2qJJ" cm:type="ps:datetime">2017-11-13T03:37:54.954Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ibjzXc2sjEwgZn0Uy" cm:name="test" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iBSTP8vwqLdUtj8Vi" cm:class="ps:parents">
+        <cm:relation cm:id="i9WN3FP-Jzh_ESjGH" cm:type="ps:parent">
+          <cm:target cm:id="iBPH6aOlm9UUv-d9-">./i19iuYOiheI6ItMGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ip4C2ACH91S-99Hk0" cm:class="ps:children">
+        <cm:relation cm:id="isAcyTl1y3WT9BFQR" cm:type="ps:mandatory">
+          <cm:target cm:id="iaiHX3GmAsMLK3BC-">./iUDhQUDFSD_CJ72QW</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iifRxXgqAMyXDO4Ny" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iy_-aT36t0nWHUjPg" cm:type="ps:directory">./src/test</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw7eqeMX7JZQcQqTM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifPb5Xso76W4VIOk2" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iS_aIobTrQ-vQZ6Vh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iuIUlrSLFtnFIRYA2" cm:type="ps:datetime">2017-11-13T03:36:48.528Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihr9eDT1D_A6Vc_El" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iJX-R6qrBK52cHq5k" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU56sKwBRAlHi2SZY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ivYkH72ThWb3LZvw4" cm:type="ps:datetime">2017-11-13T03:37:01.087Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iUDhQUDFSD_CJ72QW" cm:name="test_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="i5EPDTQj7lccKfXQk" cm:class="ps:parents">
+        <cm:relation cm:id="isVVzTdc8ocYkqW9v" cm:type="ps:parent">
+          <cm:target cm:id="i5IBeVM8Di_EoHsXo">./ibjzXc2sjEwgZn0Uy</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ipvaMH7RHkpwV9cLZ" cm:class="ps:children">
+        <cm:relation cm:id="ihQA_sHRzM9fZnfls" cm:type="ps:mandatory">
+          <cm:target cm:id="iChA8jQJXQ8zVe1wH">./iCF8WciBKTDSLUbKt</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iyyeU1CR14jc37sgO" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ifsexuab8dvKFKb9G" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0AudJxbgO8vFvZ_r" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iGJIlcc8umeRjy74-" cm:type="ps:datetime">2017-11-13T03:37:01.087Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="it2Pwft-XaFA4bmkO" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iqzYKlkElyO4e3K9W" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixloEBA6uFs5wRVHD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikxIyhsOWzFCfzama" cm:type="ps:datetime">2017-11-13T03:37:17.423Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iCF8WciBKTDSLUbKt" cm:name="test_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iQEsd176FOLAD6i0M" cm:class="ps:parents">
+        <cm:relation cm:id="i8Oq--7u9UOM1zfqW" cm:type="ps:parent">
+          <cm:target cm:id="ioaVplSrDCuWgsoJJ">./iUDhQUDFSD_CJ72QW</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iTQ8xSbfgeJWxINt4" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i3llxtkXGpjt1dPyo" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iY6ki9Bp4qyhFSABm" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i8IVJ17dZuJ5Br95c" cm:type="ps:datetime">2017-11-13T03:37:17.423Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2r_z3NXJ7bCnf0hh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ijAb4iSor_i89e5g6" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5jfiapGhjZoMETR6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i6k998rvnSsy99gi8" cm:type="ps:datetime">2017-11-13T03:37:17.423Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iXE1J4TxOTOEtjJ7v" cm:name="main" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ix43oYsDUYNIVb4Ib" cm:class="ps:parents">
+        <cm:relation cm:id="ivaghK9ny0MNYDEpY" cm:type="ps:parent">
+          <cm:target cm:id="ipghL0lW8GFzLd2Y8">./i19iuYOiheI6ItMGF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iF7hoCyDt0hXqq1U5" cm:class="ps:children">
+        <cm:relation cm:id="iKEjHJDlHLmoJqr-Q" cm:type="ps:mandatory">
+          <cm:target cm:id="ibrOBj18M0FfsrfWN">./i7ONLGiu-Y7qHujGd</cm:target>
+          <cm:target cm:id="iMfVhUoKD_fqxhDCO">./ibuzzWL3slYxAKFjX</cm:target>
+          <cm:target cm:id="iS5UHQDjswVZyNcMx">./iV_knDw7as2b9licx</cm:target>
+          <cm:target cm:id="iUTbNpYtLaGLQQvEc">./i4LRb7ts60oGG7Cs0</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ia-o-mCzHe5RXV2Nh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ipfW7JSlU7GEWLT2a" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2OoVuXZFN1-b6Ua1" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iYKndc51eZkU2SPM4" cm:type="ps:datetime">2017-11-13T03:37:54.954Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQKCEp8Uo22qW_0oI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iGiL0bm5v8ELJD01g" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="is2fWaYU0GMQ7Ku3t" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iHgUrczEiTlXAnM1n" cm:type="ps:datetime">2017-11-13T03:40:06.074Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifyv3zcNjD9wAchKR" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="irk9ssmGoYx2uKXT3" cm:type="ps:directory">./src/main</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i7ONLGiu-Y7qHujGd" cm:name="docker_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="i69NXKvbYTnpBIf7s" cm:class="ps:parents">
+        <cm:relation cm:id="ilwoHU7jWDkSZhJMT" cm:type="ps:parent">
+          <cm:target cm:id="iIImmFwp-BTsXXVPs">./iXE1J4TxOTOEtjJ7v</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ijEyaaS8sQK9FMeuo" cm:class="ps:children">
+        <cm:relation cm:id="ivBPmV6FHs1ll7XtG" cm:type="ps:mandatory">
+          <cm:target cm:id="ioJW1yyxqPZLkCaD8">./irnc0IStrQcc1DgGR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iSAPEVloTjE1gyCwN" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iIo7OyYwdmnfQuGat" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idGhRr3WUkJpfnDqL" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i7b76gqHgUwr2Zcel" cm:type="ps:datetime">2017-11-13T03:39:16.295Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivRgI5qFR_oHCQ7Ma" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i_uyqwtEhFxePI-Qp" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imQ9oMtjnH-5crA8y" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ie11VOp7UJtvHgDc-" cm:type="ps:datetime">2017-11-13T03:43:25.930Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ibuzzWL3slYxAKFjX" cm:name="java" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iA7GBEJPl2bXVqPtu" cm:class="ps:parents">
+        <cm:relation cm:id="iLNB9EdmWxC88ybf0" cm:type="ps:parent">
+          <cm:target cm:id="iVDCOHHPL1zpB4wDb">./iXE1J4TxOTOEtjJ7v</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iflayfAXptvbCAHnP" cm:class="ps:children">
+        <cm:relation cm:id="i0bDf6DmVwAFLTDI-" cm:type="ps:mandatory">
+          <cm:target cm:id="ipksMqExczJRutruO">./iXzklz3rvNx4cKOuQ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilKezIolMFkV2t_zf" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="irx-Xf6-mgUvLgJEG" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2xWVh7eyv1CUliTw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iOSp7o-qJZVaNKZ1Y" cm:type="ps:datetime">2017-11-13T03:39:33.146Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQ8T5R7IKxb-111wy" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iMWER4fbIJJT9WZD5" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ir6TXE_zGGSTprIha" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i8r5kJSblsNQHQL37" cm:type="ps:datetime">2017-11-13T03:44:52.079Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iV_knDw7as2b9licx" cm:name="resources_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="izfXafaehtkM08oKY" cm:class="ps:parents">
+        <cm:relation cm:id="ibFHWN5r5gIHtlxSc" cm:type="ps:parent">
+          <cm:target cm:id="iwKVq_YJt6fI-EVsK">./iXE1J4TxOTOEtjJ7v</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i8CIQ0semQv_ivifs" cm:class="ps:children">
+        <cm:relation cm:id="i2YqhGVN_y2Sgz_Xo" cm:type="ps:mandatory">
+          <cm:target cm:id="impZYmepsmaVchodI">./iaCcAHmnF5_R_xWTJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iFETCkCjRp_7hg2gK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihskr0V_tx4f_SMwk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iy_Thi_EyWX765pNN" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i4r0MR_LqO7_oAzyJ" cm:type="ps:datetime">2017-11-13T03:39:49.746Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="inm_TVB-mfWbqj0R9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ioOvM3UDc2-sk2FnJ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ix1kXnkh197w8rO0R" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iS0k2ZII5K8QAi8I2" cm:type="ps:datetime">2017-11-13T03:42:46.164Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i4LRb7ts60oGG7Cs0" cm:name="webapp" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ikgHpM2n9dIxPZpzH" cm:class="ps:parents">
+        <cm:relation cm:id="iq_Djg63mPM4RJvhY" cm:type="ps:parent">
+          <cm:target cm:id="iOIbJmsa41mNIu5Il">./iXE1J4TxOTOEtjJ7v</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="is7HFG_6m3viONfPg" cm:class="ps:children">
+        <cm:relation cm:id="i9YMhY19vB4KF1Q-S" cm:type="ps:mandatory">
+          <cm:target cm:id="itGhTeCR2KuK8iejO">./iJoQEniumLtW-BX4Z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ileRNSsMJ4Ug8xnPx" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iSmof2Eq26HGANq2L" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCBUlsswsYzlf9cZ1" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iLaJXIR8n5ENJec4Z" cm:type="ps:datetime">2017-11-13T03:40:06.074Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU_Xyo4vTRrZoOXQ9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="isDq-rnkKYpBGvD8M" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iqNJHR2jcfqLOv-YB" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iR05Panc12LbT9BdU" cm:type="ps:datetime">2017-11-13T03:41:02.441Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iJoQEniumLtW-BX4Z" cm:name="webapp_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ivGs6HrBqqmhOHiRz" cm:class="ps:parents">
+        <cm:relation cm:id="iF06962_1TmiJxEw8" cm:type="ps:parent">
+          <cm:target cm:id="i6wNLJiKCvbL1qFFf">./i4LRb7ts60oGG7Cs0</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ijMH8p_B7_CB5_DI4" cm:class="ps:children">
+        <cm:relation cm:id="iZXd5d270chLQMnGH" cm:type="ps:mandatory">
+          <cm:target cm:id="iIE4xcSYqZ5rxvf-s">./izm2BzpoYbscqkGrC</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i85NkYW46rYIjxFQw" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iA2y4yzKN2Buenr1f" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iV4b8Q_u_oG-Ir8YY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iGz5q0UpUUhcrgHub" cm:type="ps:datetime">2017-11-13T03:41:02.441Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMQvMSoFBCjShrmId" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iklBJai79MZ6iooXu" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUn6mJANsjk1uqBS_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ij5P1ruKscU5t0rih" cm:type="ps:datetime">2017-11-13T03:41:44.720Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="izm2BzpoYbscqkGrC" cm:name="webapp_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iZvbWLCx_wNTqM10j" cm:class="ps:parents">
+        <cm:relation cm:id="i4Wpw2V3PO7bUIaks" cm:type="ps:parent">
+          <cm:target cm:id="ipo4M9qK7ekd5YUHY">./iJoQEniumLtW-BX4Z</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i7G8VDXXIYRYqq-JL" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iAZB-fTVHBvVUipaH" cm:type="ps:directory">./src/main/webapp</cm:constant>
+        </cm:property>
+        <cm:property cm:id="intUj3LJ82Rm-ifjh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="isSW23SCR_OCm8_Y9" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4o3A5993jjLjtv6p" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iSvag-qqrmzd9lEbo" cm:type="ps:datetime">2017-11-13T03:41:44.720Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i12Hu09_XAui4heLg" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ilPVwwawGIcL6NO5P" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iF592K3c16EzQfjMP" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ipYXCf32YEDxhlBcy" cm:type="ps:datetime">2017-11-13T03:41:44.720Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iaCcAHmnF5_R_xWTJ" cm:name="resources_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="izYzN1dWxAodjbsez" cm:class="ps:parents">
+        <cm:relation cm:id="i-dB84S_uVoz4yzWv" cm:type="ps:parent">
+          <cm:target cm:id="iTjC1qqY1hFdZezsr">./iV_knDw7as2b9licx</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i-hNFbAScIvFZiPWs" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iWQKEehw5MvPyLZvT" cm:type="ps:directory">./src/main/resources</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibF55U3p8JNJFizDI" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iPNnh8ce7zaQO_nlk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiUDMHsL1I27HjSZS" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="isfZqgFXlajKx6baE" cm:type="ps:datetime">2017-11-13T03:42:27.761Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ic8S251AF92xv0Wvb" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLf8xePocVIChz-WY" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWZWod3i6bFesEKpe" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iW_Z7JUQJF0UjbSfU" cm:type="ps:datetime">2017-11-13T03:42:27.761Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="irnc0IStrQcc1DgGR" cm:name="docker_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ikCEY_tMcVVS8vBIH" cm:class="ps:parents">
+        <cm:relation cm:id="ioZrkiQHedNS_KID4" cm:type="ps:parent">
+          <cm:target cm:id="iNSqEilKf4TQGGRdT">./i7ONLGiu-Y7qHujGd</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iqyt_RfkcoSBLidQI" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="inOHc4cganqdrYkFA" cm:type="ps:directory">./src/main/docker</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iuQilg0yjFFS8dt25" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iGRVUSv_IvMN2x6Pb" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iT_2bSTNe_KIgr1Iw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_JE4jvzcxJ97mAGr" cm:type="ps:datetime">2017-11-13T03:43:25.930Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMz501lBkw08Fex9X" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ioSky1bGIcZL1mW40" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikYPWIFqdGSBr6Jfd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iFDXej2iMe4qg-uHl" cm:type="ps:datetime">2017-11-13T03:43:25.930Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iXzklz3rvNx4cKOuQ" cm:name="io" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="izYPZitfOSSs09KVp" cm:class="ps:parents">
+        <cm:relation cm:id="iSh-9bYXt_FYmbz3c" cm:type="ps:parent">
+          <cm:target cm:id="iTFdcWqa9BI8aWo9b">./ibuzzWL3slYxAKFjX</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iwtD9VFIixB4rBsYH" cm:class="ps:children">
+        <cm:relation cm:id="iZprnQtgyTC5AAFyU" cm:type="ps:mandatory">
+          <cm:target cm:id="iBAw5OrsSp8McNYUZ">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iLGu9zCGLAft1_BK9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="imwAk37aP9YdK2u0D" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJYryoZkZLp1hueS2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ilGr7BB_tKgWml76H" cm:type="ps:datetime">2017-11-13T03:44:52.079Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEVBoItNV9iWvPvyR" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iFNSXqExmq51aY_Uo" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="inwmiKt7zFDNvp7pK" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iRERCjFbqDerIFOQ2" cm:type="ps:datetime">2017-11-13T03:45:12.463Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iotrEnWK5frvMp5gj" cm:name="klask_package" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iuZG0lTSLC-ejt4wP" cm:class="ps:parents">
+        <cm:relation cm:id="id_hojayWGb88waEU" cm:type="ps:parent">
+          <cm:target cm:id="ihAtdNQWMzlmaenAq">./iXzklz3rvNx4cKOuQ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i3t6hKuQSV_DS2FPJ" cm:class="ps:children">
+        <cm:relation cm:id="iO8v8evuJ4aamY9Ft" cm:type="ps:mandatory">
+          <cm:target cm:id="ihX6dhnHLNV1DZkR0">./i6aSQo3cTU4kOe7CD</cm:target>
+          <cm:target cm:id="i-smLCPGKenD550Ej">./ipbdwWoXkOaCtw2Hw</cm:target>
+          <cm:target cm:id="i_XpqXLQ_G76otDp5">./ifDrHyzwRyq2XFdpJ</cm:target>
+          <cm:target cm:id="ii59ve1SVsZsCkoTo">./iUbxdtDTafWH92PkT</cm:target>
+          <cm:target cm:id="i-CddiFZxB3yUbyd8">./iKmbZagTk1-x0Fn1L</cm:target>
+          <cm:target cm:id="iQ5Ok88ALZhwDlg2p">./iO2A8pcf_qUOl3t1L</cm:target>
+          <cm:target cm:id="ilqMZ1K3Lyk9tGWR5">./i2pMHM041tUufXCFQ</cm:target>
+          <cm:target cm:id="iZ6zGG3q6EF8T8iUn">./ibJQxBMll35QuLKSc</cm:target>
+          <cm:target cm:id="iASQq80dhjmcsxS5J">./iorghFx44N5WlfFzD</cm:target>
+          <cm:target cm:id="iFbZSXnYB7WFip14x">./ieoQQOXMFmN7i32zs</cm:target>
+          <cm:target cm:id="iDqyCHyfUxlbGBuuM">./i-MZJl1nxn5ShmhiD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihrgbeoMOZEzX90UM" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHwh4DX4xiYOCfg32" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igrGadjn0tnuiPslg" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="izWSB0abrheIAErmP" cm:type="ps:datetime">2017-11-13T03:45:12.463Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5eJXMoc8uh1XUK1e" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iIChW0Mq1_y5dhmJl" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1v87z-EiGY0XMPrc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="itOKSeQrW1HhSeHQf" cm:type="ps:datetime">2017-11-13T03:59:20.033Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU8V58AUn6QgNIKOP" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="inLNkLtjnO-kNIe6k" cm:type="ps:directory">./src/main/java/io/klask</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i6aSQo3cTU4kOe7CD" cm:name="async" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ilaqi5-ibjEpazakV" cm:class="ps:parents">
+        <cm:relation cm:id="izL3lm5SKlHePJP56" cm:type="ps:parent">
+          <cm:target cm:id="iUMdvzbudDPls1iBt">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ipVj7j-Zict_2SnRr" cm:class="ps:children">
+        <cm:relation cm:id="iPPLri6Xebel4kU8c" cm:type="ps:mandatory">
+          <cm:target cm:id="iglIvx5srRVsN511P">./iSutqodPFZeEwRmWm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i91ze7xsEWMZdEkpc" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ihcJfc_Fhgq_DOLWE" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iYxgqJY_xTx1k1Fx0" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iXV4oKvvJVoy5uK6B" cm:type="ps:datetime">2017-11-13T03:45:35.072Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ica6Kl555UvbekPQ-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="im3Y8lUkh5wr25xYO" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMZ1BAS9LE08Ega5T" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iduKu1wOjBc6IxVAw" cm:type="ps:datetime">2017-11-13T03:47:06.810Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iSutqodPFZeEwRmWm" cm:name="async_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ifkC0N-5toPomFtFF" cm:class="ps:parents">
+        <cm:relation cm:id="i4oBSx-9SJxKqCiUT" cm:type="ps:parent">
+          <cm:target cm:id="iJ7hmJ7HCRsBs9-CV">./i6aSQo3cTU4kOe7CD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i9reytwXnN00S41UQ" cm:class="ps:children">
+        <cm:relation cm:id="iH_PwEWqS8_GIZlda" cm:type="ps:mandatory">
+          <cm:target cm:id="iOlytAOMlV4ogI_2F">./iK48wkPG3PYRBcj_B</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="igZV-kBJyF1sW-kms" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="icSS0ndByEQoWAPbC" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3tZYydkzD-qlnoS_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ioyzr9JzeUKQqy0L8" cm:type="ps:datetime">2017-11-13T03:47:06.811Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAGe-pj86G2ANP338" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iNRPyBH3c9G0ogcTj" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itKgS1G6buCE9wnzb" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ikdYYVIcGeBx28D_O" cm:type="ps:datetime">2017-11-13T03:47:33.869Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iK48wkPG3PYRBcj_B" cm:name="async_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iRQqggc9vMVWDUMbH" cm:class="ps:parents">
+        <cm:relation cm:id="ipDUNzJMzUTrOzniA" cm:type="ps:parent">
+          <cm:target cm:id="iKQ24ldvyVxNpymxg">./iSutqodPFZeEwRmWm</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMzbS3jUoLqcEs3Nn" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iLuc7Lfyq_c4O4NOc" cm:type="ps:directory">./src/main/java/io/klask/async</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iY31aXnCIQtgYxC35" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iMrcYHIIUgUQQWcBC" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPlwE0cvd6tz8Lsar" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ihf16FSY0C21idQBS" cm:type="ps:datetime">2017-11-13T03:47:33.869Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAnTGODALIhK9190I" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i4XF2s2Lo3uqpehER" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivE-V7m8C_KHA2Uwp" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i93lhMTTj3IwxjxyY" cm:type="ps:datetime">2017-11-13T03:47:33.869Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ipbdwWoXkOaCtw2Hw" cm:name="config" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iF-NuJ_VKl3FrUbWF" cm:class="ps:parents">
+        <cm:relation cm:id="iK54tkCY0KS6LQVbr" cm:type="ps:parent">
+          <cm:target cm:id="iclea7NBATFcpFbQb">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iB5bspkZxXFhuIUj8" cm:class="ps:children">
+        <cm:relation cm:id="i6eMBrujbTw1my6pF" cm:type="ps:mandatory">
+          <cm:target cm:id="io-anTP4zUH0Bu5Sf">./iCDRo5qIue52Iu9zW</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iJ4LntD_YTq6HECF5" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTEOD64J03sC8-4mo" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i8m9qL9pBVuRrShq5" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ilU7a0ZRLlDr5rtif" cm:type="ps:datetime">2017-11-13T03:48:59.898Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i3rfCIUKGPshlBotT" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ipAk51dO9w2LHppAe" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="izkv5uZmLDCtAePUA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iiBYX_fWF8YCJkKJZ" cm:type="ps:datetime">2017-11-13T03:53:16.762Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ifDrHyzwRyq2XFdpJ" cm:name="crawler" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iWw7gZgZ_l47FwjhV" cm:class="ps:parents">
+        <cm:relation cm:id="iCpNRtUlAjP87IpP5" cm:type="ps:parent">
+          <cm:target cm:id="iUI_cHWovCh7-DYSW">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iEx3SIa3BaDCLvKng" cm:class="ps:children">
+        <cm:relation cm:id="iQYdeE3hnd7Pj2MjG" cm:type="ps:mandatory">
+          <cm:target cm:id="iZzx_8lFfky6v-6an">./iyCEBfS4AfJoFxrwB</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iz9l6bJXAo4-l0fZZ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ivwjE8U6dODKFTdXD" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLLWxNSlmGGnyrRDg" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_1XsmU2zpRAYNtb8" cm:type="ps:datetime">2017-11-13T03:49:09.380Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihlGvzrVjFYIEAjmH" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iUJCd-CUG2heWP2W-" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iZ_Uuw3CVwm98Xn9u" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iLulgN6crKtGdr8k4" cm:type="ps:datetime">2017-11-13T03:54:04.448Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iUbxdtDTafWH92PkT" cm:name="domain" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="ixBJOvuLDCdpRZnzd" cm:class="ps:parents">
+        <cm:relation cm:id="iabrlC7VQhH8lZrD2" cm:type="ps:parent">
+          <cm:target cm:id="i3GgOpDg3_plhneO-">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i3GBzeIet_v9I2nqH" cm:class="ps:children">
+        <cm:relation cm:id="iRo8krjocmtX1kd7o" cm:type="ps:mandatory">
+          <cm:target cm:id="iglwVWX7YTgX0jKHp">./i7xv0kZFAiN-NZ504</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iX2fjX0T9-xHyHxCk" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iK5pcTuqRrJmGF346" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iIgBTzFppknEUXEWi" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iLQyTTw-uybBfuhE5" cm:type="ps:datetime">2017-11-13T03:49:25.060Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikA0SurbqhyTBEaB3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iK93iULOGrPQuv3aH" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i4ch4Im5OkOCGq9Um" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilR6l13EdoSCFUh_e" cm:type="ps:datetime">2017-11-13T03:54:49.160Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iKmbZagTk1-x0Fn1L" cm:name="repository" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="i630icxHb2QJfoAZH" cm:class="ps:parents">
+        <cm:relation cm:id="iiJFAE_89yp9tOzTy" cm:type="ps:parent">
+          <cm:target cm:id="iTC7tx4WzRtOiBe9p">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iDSLqy34qloO3pqjZ" cm:class="ps:children">
+        <cm:relation cm:id="isThIj8dB13HPEzva" cm:type="ps:mandatory">
+          <cm:target cm:id="iSWeVxlCDupsxSsLf">./i0kU7joCFXTsXejmU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iGVcfWoF6hYix7IX5" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iEKH2dsPpP-5AvFQd" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBhf7D7Wk32Q986yh" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i0LWs-g96mViYGv7O" cm:type="ps:datetime">2017-11-13T03:49:36.911Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iMYQko0Han9UbSr_c" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iqdzM9XN8qRjKKI1Z" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iU6PO1p85_6Q0Nbs4" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iZb6MZ45btkLUvpXq" cm:type="ps:datetime">2017-11-13T03:55:23.894Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iO2A8pcf_qUOl3t1L" cm:name="security" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iNbyXJemPeTkeZ1lV" cm:class="ps:parents">
+        <cm:relation cm:id="i2bvIaHJoxkSidVTH" cm:type="ps:parent">
+          <cm:target cm:id="iMobdz4q76Q1sYk-K">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ibASiS0rzxdESK4pQ" cm:class="ps:children">
+        <cm:relation cm:id="iVragrkrartWNItrt" cm:type="ps:mandatory">
+          <cm:target cm:id="izDOxKFadn3aCM1Q0">./ilZBB2Lbtbt88nNT3</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ilET_ywfnKQ-9o1Kh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i_Tmfg_-YPL_DX8ir" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEZhEP50ZJsgzIc7D" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="icRmdzqc98TNG6i-J" cm:type="ps:datetime">2017-11-13T03:49:55.124Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i9VD6QEil89D3m-9m" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iwNRFzprnGeqbx_E4" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i1S3ENG9-s8UJ2Q53" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ioKFzn-Y2c0QBZtBo" cm:type="ps:datetime">2017-11-13T03:56:06.712Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i2pMHM041tUufXCFQ" cm:name="service" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="inxwJlmqXxIRDQ-aa" cm:class="ps:parents">
+        <cm:relation cm:id="iKqG3SIF_CysXxlQb" cm:type="ps:parent">
+          <cm:target cm:id="i8-zL2omkOOWGRZzJ">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iW14YobZMS-paketx" cm:class="ps:children">
+        <cm:relation cm:id="igsZ3Bgvsw-leBJbP" cm:type="ps:mandatory">
+          <cm:target cm:id="iHLhQJOJWNmZMaaFD">./iuiFxkxg_tiTNWUPr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ihhv-7w5QjNybTbSD" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iKGUf6V6V1eCCC6rh" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipjv13ovlQxXLWbMu" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iasOdKGe7-7w7Nsxs" cm:type="ps:datetime">2017-11-13T03:50:10.860Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iy6MqNmyDwBd1Q7Ck" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i0c6se309tGDYN1Dq" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iag4LD6VumddNL3a-" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iAF7AWUm29hid0jeS" cm:type="ps:datetime">2017-11-13T03:56:55.681Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ibJQxBMll35QuLKSc" cm:name="web" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="i5q29ePjBWxMilzj7" cm:class="ps:parents">
+        <cm:relation cm:id="iob0GSmfBaFAXw5cF" cm:type="ps:parent">
+          <cm:target cm:id="iFAZdMAjfHUQqLi7m">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ihJmj0VFWXX4ZGgl3" cm:class="ps:children">
+        <cm:relation cm:id="ijtpO4hU0BKbBuS9z" cm:type="ps:mandatory">
+          <cm:target cm:id="ikA7ldUYknxR1LWj-">./iRO3zTeRfdRrecRqR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ifVOh3SwByLQyXHfc" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iHXpZ0NWA5HjQKCsk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2dN3rTjoqp1JdlJF" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iuABN97PCU8JMweVR" cm:type="ps:datetime">2017-11-13T03:50:20.871Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ibZxR5h2Lxuc3iEYW" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ia5R2QbAIZ156aWpe" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iaUSYTI4jfrOnTn2K" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ix7zVO0TcHGUmGiq5" cm:type="ps:datetime">2017-11-13T03:58:00.830Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iorghFx44N5WlfFzD" cm:name="ApplicationWebXml_java" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iShf0BjlABCCyyjDr" cm:class="ps:parents">
+        <cm:relation cm:id="iw1pLCoJU6ax_9zzc" cm:type="ps:parent">
+          <cm:target cm:id="i7SS5F9zVkuMHRKQt">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="isuwlsnmiOidsC-Ag" cm:class="ps:children">
+        <cm:relation cm:id="iZbRUy2DL5uwwRwx7" cm:type="ps:mandatory">
+          <cm:target cm:id="iO098hCizkj9chP7E">./iv2xAp4U8yxl2SVAF</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i7ZwwDc67NGr_wu2g" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i9nt8h7D-73ptSCSk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iaGcP_iF2f96564q9" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="inQCnA8id_4WAvLnW" cm:type="ps:datetime">2017-11-13T03:50:41.578Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="io_vUXUmS4DmVeUNS" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iImYXQML89lXmydqS" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNp5XWg9TsweqA1P5" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iCV83x6Gokdw3EvSD" cm:type="ps:datetime">2017-11-13T03:51:55.197Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ieoQQOXMFmN7i32zs" cm:name="KlaskApp_java" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iHvEJzPfxMNIS-SwF" cm:class="ps:parents">
+        <cm:relation cm:id="iP-JUpt1nqPvRQ1hb" cm:type="ps:parent">
+          <cm:target cm:id="ily-4WJ9BW_OmyZK1">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i5cKpLBQ_RRpfDJii" cm:class="ps:children">
+        <cm:relation cm:id="iXtxcBI7q3TWRKlpd" cm:type="ps:mandatory">
+          <cm:target cm:id="iDNjxRbbUHojaGQjU">./iqgn6XeOOybm6a8v-</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iSC7rbbaCGZfKKKmg" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="isibBvXkHKYUgJ3cn" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ieNaiJIIOJYeTkeqD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2Llly3uaQYrdE0pl" cm:type="ps:datetime">2017-11-13T03:50:59.634Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iOeQiAz1O5CPlmkWC" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i_cu8qEe624eDzmBg" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="im-D-Uh_fLRQvTXBd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i6y8g3J5HM2J6EOrH" cm:type="ps:datetime">2017-11-13T03:51:30.966Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iqgn6XeOOybm6a8v-" cm:name="KlaskApp_java_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iELeNSG5spzIEf4f8" cm:class="ps:parents">
+        <cm:relation cm:id="iQPS_HNvfKURiDdzU" cm:type="ps:parent">
+          <cm:target cm:id="ioE6b18DHn642w1O3">./ieoQQOXMFmN7i32zs</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iVbDMo2TT8uD9ObZf" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iOlO530BOVu3S5WSv" cm:type="ps:path">KlaskApp.java</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isCK1obqZRfm2SWt-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iuR1cIv4AXHgbhWa4" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iS9RYWzGDzR9cIQuO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iFrae_ucr4PIWMTor" cm:type="ps:datetime">2017-11-13T03:51:30.966Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idUuDRexYqY7bL0yK" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i_Hr28frc6d9hkun_" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixAODBilbnFzn7CG2" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ilYD8I2hoKZiIc0NM" cm:type="ps:datetime">2017-11-13T03:51:30.966Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iv2xAp4U8yxl2SVAF" cm:name="ApplicationWebXml_java_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iFFabm-DRVR1LDOIU" cm:class="ps:parents">
+        <cm:relation cm:id="iW8Je4M4PPGy3fF9s" cm:type="ps:parent">
+          <cm:target cm:id="i7XBYe2GfO8HpAV3T">./iorghFx44N5WlfFzD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iYbQb3XqlD5NZDl6n" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iw9bVNrQ3ZD2uK2MO" cm:type="ps:path">ApplicationWebXml.java</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAqvjnDVk5vwWRNWQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="igk9Ae3xUJIo5uP9O" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iy-QXr0qcURwtDbvW" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="izbwZwYZ6993MXeDT" cm:type="ps:datetime">2017-11-13T03:51:55.197Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihH9uKpP1bH8J8XdQ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9vNz7RfuTRSTjdv9" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i-tv05QEjQrlRbJbA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iL2xCkXXV8Ad8MZ3k" cm:type="ps:datetime">2017-11-13T03:51:55.197Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iCDRo5qIue52Iu9zW" cm:name="config_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="ihlLRtkhO0j1sO4Sf" cm:class="ps:parents">
+        <cm:relation cm:id="ikD9icN3M8YPosB1M" cm:type="ps:parent">
+          <cm:target cm:id="iG1dZ3L0Kd-4anYEQ">./ipbdwWoXkOaCtw2Hw</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="isOWrh_4z_HJssX1-" cm:class="ps:children">
+        <cm:relation cm:id="iBYzbCC8QAhBGLUTC" cm:type="ps:mandatory">
+          <cm:target cm:id="iWgBphCBtUu-pYQCK">./iEtQlU7qwHUyb5n3u</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iICgb5dW4BTPXJOVl" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i4kJTB1uoyrjhZJZg" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ikPEbb222BWYJja6k" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iN64orJ8hewQH_8EP" cm:type="ps:datetime">2017-11-13T03:53:16.763Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKFweUR5lz13Tx-fX" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ipMyX8KiuG2WvlQAK" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="igrSdGcX5vOdZJkRw" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iP-GSPm3isdGEkleZ" cm:type="ps:datetime">2017-11-13T03:53:36.955Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iEtQlU7qwHUyb5n3u" cm:name="config_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iuKIFb3lZOKGyz04Z" cm:class="ps:parents">
+        <cm:relation cm:id="i9ZAcNeGTZ8uuJC3S" cm:type="ps:parent">
+          <cm:target cm:id="ixXadQf3TzRELthd3">./iCDRo5qIue52Iu9zW</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i4bE2yeffIAEsfeZd" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i1kAgOJPNKqwnqWvV" cm:type="ps:directory">./src/main/java/io/klask/config</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iWqhUorkRVoxFzeU3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTDXnxry-BFk6F2Df" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDgC3Gxv56SXpkSgi" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i_bDmSrN8aUWgLX3k" cm:type="ps:datetime">2017-11-13T03:53:36.955Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iR4ugCu7v-BSR0U5X" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9XwKMHVtPsyIHE5p" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBmcsK2Pv5ZCrkTVZ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="icJacq6cposqeX3ly" cm:type="ps:datetime">2017-11-13T03:53:36.955Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iyCEBfS4AfJoFxrwB" cm:name="crawler_dir" cm:type="ps:class" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iWWmmjtAExOdav7eD" cm:class="ps:parents">
+        <cm:relation cm:id="iCsfFZ713USdUc3W_" cm:type="ps:parent">
+          <cm:target cm:id="ioI7w_dDSKWlvR0gO">./ifDrHyzwRyq2XFdpJ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iMPjs7OGD3uDbI3SQ" cm:class="ps:children">
+        <cm:relation cm:id="iGUXAdGA5ZNdCDPt2" cm:type="ps:mandatory">
+          <cm:target cm:id="irD9gFaH2BwDPP_H7">./ixQKq6bF4SjLVnxH_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iDTdNqyCTGsEbP9Ks" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iU7TGn3hxvyWvngOr" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="isrlIM5RYXCEkChMY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iARiowkbgBa11ykXf" cm:type="ps:datetime">2017-11-13T03:54:04.448Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="icz45DuhotO7-OxXD" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLFRSTmcCEQiHEq4k" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iXxtBemd4gnQzNOLY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="igaVFIm7nVJcSkfId" cm:type="ps:datetime">2017-11-13T03:54:30.885Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ixQKq6bF4SjLVnxH_" cm:name="crawler_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="i-i3xry8T0iC4ra1I" cm:class="ps:parents">
+        <cm:relation cm:id="ineX5rMUHekUzDRQJ" cm:type="ps:parent">
+          <cm:target cm:id="iratnHNeqAQXY2G7J">./iyCEBfS4AfJoFxrwB</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iUjVmgTz04XDzdIUK" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iEpIYmErhBo-rWcoV" cm:type="ps:directory">./src/main/java/io/klask/crawler</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iGfsat4NXE8gv0tCC" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iejC3oQurvCcih3QZ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iQkMlBqzhAIeqCpRn" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i0a7YvaNV2AGzzHKV" cm:type="ps:datetime">2017-11-13T03:54:30.885Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ihmE3rScHTB_z0QAH" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="imkN64-4OamoDwJYJ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iSkXuTnExOilT1lUD" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="igSLtDyu0yp7ZOqtL" cm:type="ps:datetime">2017-11-13T03:54:30.885Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i7xv0kZFAiN-NZ504" cm:name="domain_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iUyUOQVRxzB0YH4Za" cm:class="ps:parents">
+        <cm:relation cm:id="iCbpiXyJzDBJBc9rn" cm:type="ps:parent">
+          <cm:target cm:id="i18Q1LvkB568e5448">./iUbxdtDTafWH92PkT</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iIDSRFIeyHikefT3r" cm:class="ps:children">
+        <cm:relation cm:id="iu5YUJtuIWlYILLMg" cm:type="ps:mandatory">
+          <cm:target cm:id="i5aIdOUwTiu4ApsW_">./iF2QI9mpZopI4xho_</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="icm7r3iymKGsxUG86" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ioQ2mLSnEU-t2kMhs" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ioeOWUAtsCNNry5AA" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ibrM7-t5kc4yRFJwi" cm:type="ps:datetime">2017-11-13T03:54:49.160Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEpL6GBpW8xxnlYJ7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ixTT5BDZCPcqDA6zM" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iEA_uUt8bJ4tFje_c" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="im98t8r9pidmWmI9b" cm:type="ps:datetime">2017-11-13T03:55:05.949Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iF2QI9mpZopI4xho_" cm:name="domain_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ivZ63iIon3AWMEDpQ" cm:class="ps:parents">
+        <cm:relation cm:id="irltfRVkWSII9OEUB" cm:type="ps:parent">
+          <cm:target cm:id="i7cCTlK2624SL816G">./i7xv0kZFAiN-NZ504</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iWEtz3lOevyBgO_6x" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i2v49Yu8yXkheNwl_" cm:type="ps:directory">./src/main/java/io/klask/domain</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iprWUgjRZ7T7Nx57G" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iTaQisNkwJoPVs8XI" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyh--BS9Y3VOhwqO_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ifs60swPZ_rU1hAf4" cm:type="ps:datetime">2017-11-13T03:55:05.949Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i2pTIX63eMDz19xp7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iQ6iQ04UNxG_VLlRX" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0ntfhZtXSB9JiFB7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i49i2wcROJugMAiaC" cm:type="ps:datetime">2017-11-13T03:55:05.949Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i0kU7joCFXTsXejmU" cm:name="repository_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iJjLOSqldFhfnM67F" cm:class="ps:parents">
+        <cm:relation cm:id="iIJaqy_JWYFePt5GK" cm:type="ps:parent">
+          <cm:target cm:id="iXzWHr_ZdwxuNwWqU">./iKmbZagTk1-x0Fn1L</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iz5ogsr75SE8eRDsu" cm:class="ps:children">
+        <cm:relation cm:id="ipM1vb5zrFbfhM0do" cm:type="ps:mandatory">
+          <cm:target cm:id="iPPdMkkQxvWqlUzdG">./iEjFbCmfBpzSak0IH</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i6jsz2E3oLMVogXCl" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ix0d2cpYXlNuLPpOs" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHs4g4lLDRa0T09YO" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ivbjBv4AEefZT4Hb8" cm:type="ps:datetime">2017-11-13T03:55:23.895Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipMQwkNdDsbSFe1Na" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iEqTFn2UWqx9AXjYM" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5wTlck0mi8axWTQd" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="irNIzzDbdypk3Q3aW" cm:type="ps:datetime">2017-11-13T03:55:45.952Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iEjFbCmfBpzSak0IH" cm:name="repository_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="irK7Z-L0A3HglVn8C" cm:class="ps:parents">
+        <cm:relation cm:id="idMPYpa8JxOSV45-g" cm:type="ps:parent">
+          <cm:target cm:id="iQk2qAkoX470Wi3zv">./i0kU7joCFXTsXejmU</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i0ofI4zHvYH1q9i7P" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i1eLveM6xZfGfzoND" cm:type="ps:directory">./src/main/java/io/klask/repository</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ik9bLBUb0j0Lz2C98" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i2lJJbfCVY2fQyjkw" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iUVRB23M6HFEjAU7B" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKLV2xVCqaSh40F4d" cm:type="ps:datetime">2017-11-13T03:55:45.952Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i_ZDX_uNS1rOng0qO" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i5mmG8UPn1z5QWLPz" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCD24-goKi8gd6dup" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="izGddmqRPQtjeF4_h" cm:type="ps:datetime">2017-11-13T03:55:45.952Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ilZBB2Lbtbt88nNT3" cm:name="security_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iQZEPNMXom7cuIIQb" cm:class="ps:parents">
+        <cm:relation cm:id="iH8OXEqRJVY3hYymf" cm:type="ps:parent">
+          <cm:target cm:id="i-SbyNIRxz3txqUQH">./iO2A8pcf_qUOl3t1L</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iFTMKy6qj5lKHdUNO" cm:class="ps:children">
+        <cm:relation cm:id="iT0taxUNXluUjoigo" cm:type="ps:mandatory">
+          <cm:target cm:id="iXPlMolsbfWB0-dfW">./iRORQMAnDnnhBoJKv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iNYYmi1BspUsC46Dz" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iDPjq0kQQ3yngXzjk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="id5qr6MUewhE2coc6" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iGRq2L0c8yf2Z7y4v" cm:type="ps:datetime">2017-11-13T03:56:06.712Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixcNJoBj3cy1THtZJ" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i-6RjLNgVTrArbQQu" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCOXpVHcXPZBWOkZC" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i1MB-HxpIslhpyDKQ" cm:type="ps:datetime">2017-11-13T03:56:36.902Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iRORQMAnDnnhBoJKv" cm:name="security_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iDCpvVST-bWWuRaYU" cm:class="ps:parents">
+        <cm:relation cm:id="iaKI23Oh6HoH8RJOM" cm:type="ps:parent">
+          <cm:target cm:id="iTUIOvQEcw4o3FNDe">./ilZBB2Lbtbt88nNT3</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="imm2ARQiVHm-_25y_" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="irAzXC5St9Q--0hi_" cm:type="ps:directory">./src/main/java/io/klask/security</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iO5uXciPEJHtMT7P-" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iDsGdV3FTJxEWNrDk" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iiuxPci8PXXumvF50" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iwK4F41kmG-zZbrfo" cm:type="ps:datetime">2017-11-13T03:56:36.902Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idEoeA1uQlZCy0N2d" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iOqJz6-y8d3GI-wih" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iCwkH2p-oakrhZJub" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="itVP4h_l6deiRaznp" cm:type="ps:datetime">2017-11-13T03:56:36.902Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iuiFxkxg_tiTNWUPr" cm:name="service_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iZyniV7fOHPC8NOod" cm:class="ps:parents">
+        <cm:relation cm:id="ircGQPoXUzgbKnosq" cm:type="ps:parent">
+          <cm:target cm:id="iEw1Z7__dsDMHYtUo">./i2pMHM041tUufXCFQ</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="i1NR8X5LsEGrS8Da9" cm:class="ps:children">
+        <cm:relation cm:id="isPiw6MIBLJD1t_ws" cm:type="ps:mandatory">
+          <cm:target cm:id="is1TaBy2pWK0E1t8M">./iyBDlV4lkPWvQ9r3b</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ieBxAVN0KQxTz8H_5" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="icdVOlNdcVa0rG904" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i0kfhq1AD2ZzElvxy" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iCabkAsqazNWIoM0T" cm:type="ps:datetime">2017-11-13T03:56:55.682Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="imLefXfVkEi4rjo6l" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="ifFLlNGVAzZy_0HCC" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iHEallwosElaFPXc7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ijSr9rjItk7cbrBC0" cm:type="ps:datetime">2017-11-13T03:57:44.950Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iyBDlV4lkPWvQ9r3b" cm:name="service_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iugkIaxU_6D8qRh8U" cm:class="ps:parents">
+        <cm:relation cm:id="iFqcXAjsX9gFonkvs" cm:type="ps:parent">
+          <cm:target cm:id="io4e0WJ3jrSSJSwTu">./iuiFxkxg_tiTNWUPr</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ipGPI8ew75vE60V9f" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="imu8TPDxBw0XADcLl" cm:type="ps:directory">./src/main/java/io/klask/service</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iVI3ekWnvNaH58hSA" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="if_AIrqBZRuhywiHy" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i90PegoV6Ch2RpMP8" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="ia-DXfoVi-fF6kTqQ" cm:type="ps:datetime">2017-11-13T03:57:44.950Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iDASjUhk1DopbgHIh" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iLMI9zjHbZoxdD--l" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7rod2XJFPXWGGwWV" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iv919t3Sa0_mLlwtK" cm:type="ps:datetime">2017-11-13T03:57:44.950Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iRO3zTeRfdRrecRqR" cm:name="web_dir" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iSvapeupNZn_kbBU7" cm:class="ps:parents">
+        <cm:relation cm:id="iL0KkV-bTmUMtISq5" cm:type="ps:parent">
+          <cm:target cm:id="ieTjwVu_3BHi_6_gO">./ibJQxBMll35QuLKSc</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iWa6RCXAQbvXSoz7D" cm:class="ps:children">
+        <cm:relation cm:id="in6BS82Rjz-6t6btS" cm:type="ps:mandatory">
+          <cm:target cm:id="i86zNrZ5Uh3KqhCyp">./i0aV0pr6rZGNmKwOq</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iMMoYvR0JCFi8TOO7" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iAYnG1mVyIeGjeYhg" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iPVNV9M1Rffvif3Zj" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i3Q7NtoJPI-aA3mUf" cm:type="ps:datetime">2017-11-13T03:58:00.830Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="idq9QVfQfaYor81L9" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i-kPcpKF6Ktx6XbXQ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="itk-NZe9swBinNTK_" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iLdf4lXLHfT9-eIp8" cm:type="ps:datetime">2017-11-13T03:58:23.989Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i0aV0pr6rZGNmKwOq" cm:name="web_dir_cp" cm:type="ps:dir" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="iXyhrlLJyidRAGaI3" cm:class="ps:parents">
+        <cm:relation cm:id="iHe2n881c8XjuuLzr" cm:type="ps:parent">
+          <cm:target cm:id="i61zZ6C_lxGOHnmXh">./iRO3zTeRfdRrecRqR</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="ickcUS9aYOEynbdeG" cm:type="ps:directory" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i-2ACB2qvkktqyu9X" cm:type="ps:directory">./src/main/java/io/klask/web</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ig83ohxKxK3Xh8PM2" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="iIVU8wO5BFC3wGXNC" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixHdQC-SEbrxpkX3b" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iN5T7c4vGGq4BDaC0" cm:type="ps:datetime">2017-11-13T03:58:23.989Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ipTYy2LsTzofMLknl" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iyyolPpKCeN44q_z2" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7pRqVRzxs3ujX0NH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iz5cullAR71eIW5VB" cm:type="ps:datetime">2017-11-13T03:58:23.989Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="i-MZJl1nxn5ShmhiD" cm:name="aop" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iC8x11SqQsGHAlJu0" cm:class="ps:parents">
+        <cm:relation cm:id="iNNe_Fj5an9_SfwUW" cm:type="ps:parent">
+          <cm:target cm:id="i5Vghg8o2eUJQJqeb">./iotrEnWK5frvMp5gj</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iyHWXTB3bDgGzRO7f" cm:class="ps:children">
+        <cm:relation cm:id="iy1pTuCuQEhQpMCVE" cm:type="ps:mandatory">
+          <cm:target cm:id="i3r4h41FKu19rVu3R">./iOgWlpli5xcODCS1Q</cm:target>
+          <cm:target cm:id="i8BTgbMU-cTChrUBM">./igwuebXDrTur7lyMB</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iZr7gj8asxs0aiw32" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="ijimDvU1YTPhmxpwT" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iI5xphprJdYsvBhbY" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="i2l06_3uoDWawfk7b" cm:type="ps:datetime">2017-11-13T03:59:20.033Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iAfLjLyQdIhZ8c9G6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9OO61MGFhlbOMJjY" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iJ_x8KPOqTCumgeBx" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="irfNI_Qm8yJNKyaah" cm:type="ps:datetime">2017-11-13T04:02:29.739Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ivba8YJ05gfgGT9ZN" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="i1w9DiD-vYiBcBVpC" cm:type="ps:directory">./src/main/java/io/klask/aop</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iOgWlpli5xcODCS1Q" cm:name="logging" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iA5ToVmCCwofIsUqj" cm:class="ps:parents">
+        <cm:relation cm:id="ioAMO2smEUl2VDtk2" cm:type="ps:parent">
+          <cm:target cm:id="imfz_4-fdkUbRRB4W">./i-MZJl1nxn5ShmhiD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="iSofrC-ByULkPTQya" cm:class="ps:children">
+        <cm:relation cm:id="iilvscJMY6S-QcIkt" cm:type="ps:mandatory">
+          <cm:target cm:id="iBiX8UEUxXuH0V8Zk">./iUQEtAoX3WaBCJXWv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="iqYKocCbenGzMeWvV" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iVAzQDBVjrsc5pj3d" cm:type="ps:directory">./src/main/java/io/klask/aop/logging</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iKFAOpwOKd4pqK_Je" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="izR206DdPYiN9_DUU" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iO5n0oCTOqPCx084E" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iWYuol2WZcIrXdjMA" cm:type="ps:datetime">2017-11-13T04:01:43.891Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iBjWO-_YmAo-q-jP3" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="i9roQpD1-BXLiQ__L" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iLTkKYFMIw5etMZkH" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="iYttcfhXBm_6a33WR" cm:type="ps:datetime">2017-11-13T04:02:53.672Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="igwuebXDrTur7lyMB" cm:name="mail" cm:type="ps:component" cm:class="ps:component" cm:default="on">
+      <cm:relations cm:id="iGTEhlqEaAU4MT2c1" cm:class="ps:parents">
+        <cm:relation cm:id="iaqBlWupJZYxdZC55" cm:type="ps:parent">
+          <cm:target cm:id="i5qPkqBtrC_3heluQ">./i-MZJl1nxn5ShmhiD</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="is-o1m1PrgYyOo57Z" cm:type="ps:directory" cm:inheritable="true" cm:fixed="true" cm:name="dir">
+          <cm:constant cm:id="iomOES9cXU2fBRUbq" cm:type="ps:directory">./src/main/java/io/klask/aop/mail</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i7wJCiDwdgyTyI-Ad" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i_nZwZCYWUBHtiUhF" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="in3LCm7mZlqKQyo9E" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="irYtiF7GC0rFT5BsW" cm:type="ps:datetime">2017-11-13T04:02:29.740Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iNOv7c7JU7UgBX5Fe" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iTAYV5y530cznzbAM" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="i5a2cAGV_2eB4vLga" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="ie38kzJvj27TlT8mJ" cm:type="ps:datetime">2017-11-13T04:02:29.740Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="iUQEtAoX3WaBCJXWv" cm:name="LoggingAspect_java" cm:type="ps:object" cm:class="ps:part" cm:default="on">
+      <cm:relations cm:id="iHSt7BtSoEZA58iKw" cm:class="ps:parents">
+        <cm:relation cm:id="i5NVDFvmTlH1Yur2v" cm:type="ps:parent">
+          <cm:target cm:id="i78AZ-myx0VcxBiDA">./iOgWlpli5xcODCS1Q</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:relations cm:id="ilh8MzlI4UAAggsTq" cm:class="ps:children">
+        <cm:relation cm:id="iKREIcY1pgTd4f4i8" cm:type="ps:mandatory">
+          <cm:target cm:id="itbPZIebv7bF4MOMy">./ipHiql_MKi_ZBkIbg</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i5jKgVQ6ybTFyzlxk" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i7PFGAEAbRIz6V3Ms" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iyCnhbc6laovJyWu7" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iKuO919BBTctqw69G" cm:type="ps:datetime">2017-11-13T04:02:53.672Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ilj0uoG_L9zBqXmU6" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iCHavEdeiMvIbrTKd" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ixWH0P1MsZ0KKRVtQ" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i0LZcZO9CQcOLqukd" cm:type="ps:datetime">2017-11-13T04:03:13.640Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+    <cm:element cm:id="ipHiql_MKi_ZBkIbg" cm:name="LoggingAspect_java_cp" cm:type="ps:file" cm:class="ps:source" cm:default="on">
+      <cm:relations cm:id="ifQbywMnFJUrT-rhH" cm:class="ps:parents">
+        <cm:relation cm:id="iqk_9JHGDulBRpcIm" cm:type="ps:parent">
+          <cm:target cm:id="ijASr68Lt0Ztw3CQ7">./iUQEtAoX3WaBCJXWv</cm:target>
+        </cm:relation>
+      </cm:relations>
+      <cm:properties>
+        <cm:property cm:id="i9F8cgvCQpGdqQ6Gc" cm:type="ps:path" cm:fixed="true" cm:name="file">
+          <cm:constant cm:id="iexHSXl-XUuyXH3is" cm:type="ps:path">LoggingAspect.java</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ib_G2HKMvmJHD6itC" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:Source">
+          <cm:constant cm:id="i1ApiWfjl3wYUm8HJ" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="iw08UcU5tmd9BgdBv" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Created">
+          <cm:constant cm:id="iEenQFz_ENvcbZ3yZ" cm:type="ps:datetime">2017-11-13T04:03:13.640Z</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ijZ1qaikbH6POtHRp" cm:type="ps:string" cm:fixed="true" cm:readonly="true" cm:name="ps:ChangedBy">
+          <cm:constant cm:id="iVUW4MkcHAW0_Pt1D" cm:type="ps:string">marcioaug</cm:constant>
+        </cm:property>
+        <cm:property cm:id="ifuWutrkAoC__BRXc" cm:type="ps:datetime" cm:fixed="true" cm:readonly="true" cm:name="ps:Changed">
+          <cm:constant cm:id="i-WGHqx5r8OiHlj1Z" cm:type="ps:datetime">2017-11-13T04:03:13.640Z</cm:constant>
+        </cm:property>
+      </cm:properties>
+    </cm:element>
+  </cm:elements>
+</cm:consulmodel>
